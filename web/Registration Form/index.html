@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color: rgb(208, 230, 249);
+        }
+        h1{
+            color: coral;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input{
+            font-size:15px;
+        }
+        table{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;padding: 4px;">REGISTRATION FORM</h1>
+    <table border="2" width="80%" height="500px" align="center" bgcolor="gray">
+        <tr style="text-align: center;background-color: cadetblue;">
+        <th colspan="2" style="font-size: 30px;">Sign up</th>
+        </tr>
+        <tr>
+            <th style="color: white;font-size: 20px;">
+                <label>Name</label>
+            </th>
+            <th><input type="text"></th>
+        </tr>
+        <tr>
+            <th style="color: white;font-size: 20px;">
+                <label>Age</label>
+            </th>
+            <th><input type="date"></th>
+        </tr>
+        <tr >
+            <th style="color: white;font-size: 20px;">
+                <label>Mobile No.</label>
+            </th>
+            <th><input type="number"></th>
+        </tr>
+        <tr >
+            <th style="color: white;font-size: 20px;">
+            <label>Email</label></th>
+            <th><input type="email"></th>
+        </tr>
+        <tr >
+            <th style="color: white;font-size: 20px;">
+            <label>Gender</label></th>
+            <th style="color: rgb(255, 243, 193);">
+            <input type="radio" name="gender">Male 
+            <input type="radio" name="gender">Female
+            </th>
+        </tr>
+        <tr >
+            <th style="color: white;font-size: 20px;">
+            <label>Country</label></th>
+            <th>
+            <select name="city" style="font-size: 20px;">
+            <option value="India">India</option>
+            <option value="South Africa">South Africa</option>
+            <option value="America">America</option>
+            <option value="Japan">Japan</option>
+            </th>
+        </tr>
+        <tr style="font-size: 30px;background-color:darkcyan;">
+            <th colspan="2"><input type="Submit">
+            <input type="reset">
+            </th>
+        </tr>
+    </table>
+    
+</body>
+</html>
